@@ -30,7 +30,7 @@ export default function LoginForm () {
     }
 
     if(user) {
-        return <h2>Welcome {user.uid}</h2>
+        return <h2>Welcome {user.email}</h2>
     }
 
     return (
